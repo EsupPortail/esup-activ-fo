@@ -21,7 +21,7 @@ public class ValidatorCode extends AbstractI18nAwareBean implements Validator{
 		if (value instanceof String) {
 			String strValue = (String) value;
 			
-			if (!strValue.matches("^[0-9]{8}$")) {
+			if (!strValue.matches("^[0-9]{6}$")) {
 				throw new ValidatorException(getFacesErrorMessage("VALIDATOR.CODE.INVALID"));
 			}
 		}
