@@ -118,7 +118,7 @@ $(function() {
 </div>
 </e:page>
 <script src="../media/scripts/croppie.js"></script>
-<script src="https://foliotek.github.io/Croppie/bower_components/exif-js/exif.js"></script>
+<script src="../media/scripts/exif.js"></script>
 <link rel="stylesheet" href="../media/croppie.css" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 <script src="../media/scripts/croppieForm.js"></script>
