@@ -1,11 +1,10 @@
 package org.esupportail.activfo.services.client;
 
-import java.util.Map;
 import java.util.List;
+import java.util.Map;
 
-
-import org.esupportail.activfo.exceptions.ChannelException;
 import org.esupportail.activfo.exceptions.AuthentificationException;
+import org.esupportail.activfo.exceptions.ChannelException;
 import org.esupportail.activfo.exceptions.KerberosException;
 import org.esupportail.activfo.exceptions.LdapProblemException;
 import org.esupportail.activfo.exceptions.LoginAlreadyExistsException;
@@ -31,4 +30,6 @@ public interface AccountManagement {
 	public void changeLogin(String id, String code,String newLogin)throws LdapProblemException,UserPermissionException,KerberosException,LoginAlreadyExistsException, LoginException,PrincipalNotExistsException;
 	
 	public Map<String,String> authentificateUser(String id,String password,List<String>attrPersoInfo)throws AuthentificationException,LdapProblemException,UserPermissionException, LoginException;
+
+	public String validatePassword(String id, String password) throws  KerberosException,LdapProblemException, LoginException;
 }
