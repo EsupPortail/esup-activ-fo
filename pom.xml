@@ -72,7 +72,7 @@
     <dependency><groupId>org.imgscalr</groupId><artifactId>imgscalr-lib</artifactId><version>4.2</version></dependency>
     <dependency><groupId>log4j</groupId><artifactId>log4j</artifactId><version>1.2.17</version></dependency>
     <dependency><groupId>com.sun</groupId><artifactId>ldapbp</artifactId><version>1.0</version></dependency>
-    <dependency><groupId>mysql</groupId><artifactId>mysql-connector-java</artifactId><version>5.1.32</version></dependency>
+    <dependency><groupId>mysql</groupId><artifactId>mysql-connector-java</artifactId><version>8.0.16</version></dependency>
     <dependency><groupId>c3p0</groupId><artifactId>c3p0</artifactId><version>0.9.1.2</version></dependency>
     <dependency><groupId>net.sf.ehcache</groupId><artifactId>ehcache</artifactId><version>1.2.2</version>
       <exclusions>
